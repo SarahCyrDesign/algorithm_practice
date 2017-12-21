@@ -69,7 +69,7 @@ function results(strg) {
     }
 
 
-    //convert all time to seconds to calculate better, round down with floor?
+    //convert all time to seconds to calculate better, round down with floor
 
     function convertSeconds(number) {
       let hours = Math.floor(number / 3600);
